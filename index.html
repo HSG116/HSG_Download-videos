@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Downloader</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎬 Smart Video Downloader</h1>
+    <input type="text" id="videoUrl" placeholder="Enter video URL here...">
+    <button onclick="analyzeVideo()">Analyze Video</button>
+
+    <div id="result" class="hidden">
+      <h2 id="title"></h2>
+      <img id="thumbnail" src="" alt="Thumbnail" />
+      <h3>Available Formats:</h3>
+      <ul id="formats"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
