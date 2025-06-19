@@ -17,7 +17,7 @@ async function analyzeVideo() {
   }
 
   try {
-    const response = await fetch("https://7b25ae7d-7741-4503-aed1-9335f0d589ec-00-136m0cry7oj85.janeway.replit.dev/download", {
+    const response = await fetch("https://0e2894bc-309a-4991-a610-a660851070fe-00-1ju1qlvtsuwgz.riker.replit.dev/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
